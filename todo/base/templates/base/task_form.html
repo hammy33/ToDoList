@@ -1,5 +1,5 @@
-<h3>Form</h3>
-
+<h3>Task Form</h3>
+<a href="{% url 'Tasks' %}">Go back</a>
 <form method="POST" action="">
     {% csrf_token %} 
     {{form.as_p}}
